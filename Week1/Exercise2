@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-puts("Nhap N:")
+puts("Nhap vao mot so:")
 $n = gets.to_i
 
 $kq = 1
