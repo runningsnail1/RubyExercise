@@ -1,0 +1,25 @@
+#!/usr/bin/ruby
+
+puts("Nhap N:")
+$n = gets.to_i
+
+$kq = 1
+if $n < 2 
+	$kq = 0
+end
+$i = 2
+while $i * $i <= $n do
+	if $n % $i == 0 
+		$kq = 0
+	end
+	$i+=1
+end
+
+if $kq == 0
+	puts("#{$n} khong phai nguyen to")
+else
+	puts("#{$n} la nguyen to")
+end
+
+
+	
