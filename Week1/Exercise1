@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-
+#author: Nguyen Hoang Vu
 $n = 2
 while $n <= 10000 do
 	$i = 2
