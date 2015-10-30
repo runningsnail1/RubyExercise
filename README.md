@@ -1,1 +1,1 @@
-# RubyExercise
+# RubyExercises
